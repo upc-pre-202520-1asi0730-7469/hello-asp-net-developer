@@ -27,7 +27,7 @@ public class Developer(string? firstName, string? lastName)
     /// Checks if either the first name or last name is empty.
     /// </summary>
     /// <returns>True if either name is empty; otherwise, false.</returns>
-    public bool IsAnyNameEmpty() => string.IsNullOrEmpty(FirstName) 
+    public bool HasAnyNameEmpty() => string.IsNullOrEmpty(FirstName) 
                                     || string.IsNullOrEmpty(LastName);
 }
 
